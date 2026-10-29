@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Page</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal website!</p>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#courses">My Courses</a> |
+            <a href="#blog">Blog</a> |
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a> |
+            <a href="about.html">About Page</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Hello! My name is Ayush. I am a B.Tech CSE student.</p>
+
+            <img
+                src="https://placehold.co/200x200"
+                alt="Placeholder profile picture"
+                width="200"
+                height="200">
+        </section>
+
+        <hr>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am learning HTML and web development.
+                My goal is to become a good software developer.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <ul>
+                <li>Programming
+                    <ul>
+                        <li>C Programming</li>
+                        <li>Java Programming</li>
+                    </ul>
+                </li>
+
+                <li>Web Development
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+
+                <li>Mathematics</li>
+                <li>Engineering Chemistry</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Blog Post -->
+        <section id="blog">
+            <h2>My Blog</h2>
+
+            <article>
+                <h3>My First Day of Learning HTML</h3>
+                <p><strong>Date:</strong> October 29, 2026</p>
+
+                <p>
+                    Today I learned how to create a web page using HTML.
+                    I learned about headings, paragraphs, links, images
+                    and lists. I am excited to learn more about web development.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Aside Section -->
+        <aside>
+            <h3>My Interests</h3>
+            <p>I enjoy coding, learning new technologies and solving problems.</p>
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p>Created by Ayush | My Portfolio | 2026</p>
+        <p>Contact: ayush@example.com</p>
+    </footer>
+
+</body>
+</html>
